@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+ <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+ 
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+<section class="main-section">
+
+<div class="container">
+<div class="row">
+  
+
+
+  <div class="col-lg-5 slide-left">
+    <h1>Learn to code by 
+    watching others</h1>
+
+  <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+  but understanding how developers think is invaluable.</p> 
+
+  </div>
+
+ <div class="col-lg-1">
+
+  </div>
+
+
+  <div class="col-lg-6 slide-right">
+    
+
+
+
+
+  <button class="btn-try"><span><strong>Try it free 7 days</strong> then $20/mo. thereafter</span>
+  </button>
+
+
+<form id="form" novalidate>
+
+  <input id="firstName" name="name" type="text"  placeholder="First Name" title="Input your First name"  required>
+  <div class="form_error"><em>First Name cannot be empty</em></div>
+  <input id="lastName" name="lastName" type="text" placeholder="Last Name" title="Input your Last name" required>
+  <div class="form_error"><em>Last Name cannot be empty</em></div>
+  <input id="email" name="email" type="email" placeholder="Email Address" title="Input your email" required>
+  <div class="form_error"><em>Looks like this is not an email</em></div>
+  <input id="password" name="password" type="password" placeholder="Password" title="Input any password" required>
+  <div class="form_error"><em>Password cannot be empty</em></div>
+  <input id="formSubmit" class="btn-submit" name="submit" type="submit" value="Claim your free trial">
+  
+  <p>
+  By clicking the button, you are agreeing to our <a>Terms and Services
+
+  </a>
+     </p>
+
+
+</form>
+
+</div> 
+
+  </div>
+  
+</div>
+  
+</section>
+
+
+
+
+
+
+</body>
+</html>

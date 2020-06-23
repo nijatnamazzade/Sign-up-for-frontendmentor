@@ -1,0 +1,147 @@
+
+body {
+   font-family: "Poppins", sans-serif;
+   background: url("../images/bg-intro-desktop.png") no-repeat;
+  background-color: rgba(255, 0, 0, 0.5);
+  background-size: cover;
+}
+
+
+.main-section {
+height: 500px;
+}
+
+.main-section .slide-left {
+    color: #fff;
+    margin-top: 18%;
+}
+
+.main-section .slide-right {
+    margin-top: 7%;
+}
+
+.main-section h1 {
+font-weight: bold;
+}
+
+.main-section p {
+line-height: 2;
+margin-top: 5%;
+
+}
+
+
+/* Try Button */
+
+.btn-try{
+    box-sizing: border-box;
+     color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 100%;
+    margin: 0;
+    background: hsl(248, 32%, 49%);
+    box-shadow: 0px 7px 2px 0px hsl(0, 56%, 61%);
+    cursor: pointer;
+}
+
+.btn-try span {
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin: 0;
+   
+}
+
+/* Forms */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: white;
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0px 7px 2px 0px hsl(0, 56%, 61%);
+}
+
+input:first-child {
+    margin-top: 1.5rem;
+}
+
+input {
+    box-sizing: border-box;
+    font-weight: 600;
+    width: 85%;
+    height: 3rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    border: 1px solid rgb(224, 214, 214);
+    border-radius: 0.2rem;
+}
+
+input:focus {
+    border: 1px solid black;
+}
+
+.btn-submit {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-sizing: border-box;
+    width: 85%;
+    background-color: rgb(55,204,138);
+    border: none;
+    box-shadow: 0px 1px 1px 3px var(--green-border);
+    color: white;
+    cursor: pointer;
+}
+
+form p {
+    font-size: 0.7rem;
+    padding: 1rem 3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: hsl(246, 25%, 77%);
+    line-height: 1.5rem;
+}
+
+form a {
+    color: red !important;
+    opacity: 1;
+    font-weight: 700;
+}
+
+.error {
+    background: url("../images/icon-error.svg") no-repeat;
+    background-position: 95% center;
+    background-size: 1.5rem 1.5rem;
+}
+
+.form_error {
+    display: none;
+    margin-top: 0.3rem;
+    box-sizing: border-box;
+    width: 85%;
+    text-align: end;
+    color:var(--red);
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+
+section .slide-left {
+    text-align: center;
+}
+
+section .slide-left p {
+  margin: 12% 5% 0 5%;
+}
+
+}
